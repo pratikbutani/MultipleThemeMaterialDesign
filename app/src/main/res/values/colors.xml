@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme RED -->
+    <color name="redColorPrimary">#F44336</color>
+    <color name="redColorPrimaryDark">#D32F2F</color>
+    <color name="redColorPrimaryLight">#FFCDD2</color>
+    <color name="redColorAccent">#448AFF</color>
+    <color name="redTextColorPrimary">#212121</color>
+    <color name="redTextColorSecondary">#727272</color>
+
+    <!-- Theme RED -->
+    <color name="blueColorPrimary">#2196F3</color>
+    <color name="blueColorPrimaryDark">#1976D2</color>
+    <color name="blueColorPrimaryLight">#BBDEFB</color>
+    <color name="blueColorAccent">#FF4081</color>
+    <color name="blueTextColorPrimary">#212121</color>
+    <color name="blueTextColorSecondary">#727272</color>
+
+    <!-- Text -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#9E9E9E</color>
+    <color name="textColorPrimaryInverse">#DE000000</color>
+    <color name="textColorSecondaryInverse">#9E9E9E</color>
+    <color name="textColorButton">#FFFFFF</color>
+    <color name="colorDisabled">#1A000000</color>
+    <color name="colorDivider">#0C000000</color>
+    <color name="colorBackgroundPanel">#FFE0E0E0</color>
+    <color name="colorBackgroundPanelInverse">#FF424242</color>
+    <color name="colorHighlightInverse">#424242</color>
+    <color name="colorShadow">#E0E0E0</color>
+    <color name="colorShadowInverse">#181818</color>
+
+    <!-- Theme 2 -->
+    <color name="colorPrimarySecond">#FF009877</color>
+    <color name="colorPrimaryDarkSecond">#F5007C77</color>
+    <color name="colorPrimaryLightSecond">#FFE0B277</color>
+    <color name="colorAccentSecond">#FF525277</color>
+    <color name="colorAccentLightSecond">#FF8A8077</color>
+</resources>

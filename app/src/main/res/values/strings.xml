@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ThemeDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- preferences -->
+    <string name="pref_dark_theme">pref_dark_theme</string> <!-- deprecated -->
+    <string name="pref_theme">pref_theme</string>
+    <string name="pref_theme_title">Theme</string>
+
+    <string name="pref_theme_value_red">red</string>
+    <string name="pref_theme_value_blue">blue</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="change_theme">Change Theme</string>
+
+    <!-- Theme -->
+    <string-array name="pref_theme_options">
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>@string/pref_theme_value_red</item>
+        <item>@string/pref_theme_value_blue</item>
+    </string-array>
+</resources>

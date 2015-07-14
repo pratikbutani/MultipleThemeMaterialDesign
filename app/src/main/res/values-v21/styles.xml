@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Red" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/redColorPrimary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/redColorAccent</item>
+
+        <item name="android:textColorPrimary">@color/redTextColorPrimary</item>
+        <item name="android:textColor">@color/redTextColorSecondary</item>
+        <item name="android:navigationBarColor">@color/redColorPrimaryDark</item>
+
+    </style>
+    <style name="AppTheme.Blue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorAccent</item>
+
+        <item name="android:textColorPrimary">@color/blueTextColorPrimary</item>
+        <item name="android:textColor">@color/blueTextColorSecondary</item>
+        <item name="android:navigationBarColor">@color/blueColorPrimaryDark</item>
+    </style>
+</resources>
