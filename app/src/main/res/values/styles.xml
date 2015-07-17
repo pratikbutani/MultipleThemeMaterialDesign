@@ -34,4 +34,8 @@
     <style name="AppToolbarSearchView" parent="Widget.AppCompat.SearchView.ActionBar">
         <item name="queryHint">Search</item>
     </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
 </resources>

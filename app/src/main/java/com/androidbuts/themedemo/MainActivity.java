@@ -10,17 +10,14 @@ import android.view.MenuItem;
 
 import com.androidbuts.themedemo.settings.SettingsActivity;
 
-
 public class MainActivity extends BaseActivity {
 
-    @TargetApi(Build.VERSION_CODES.HONEYCOMB)
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-
-
     }
 
     @Override
@@ -30,6 +27,7 @@ public class MainActivity extends BaseActivity {
         return true;
     }
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

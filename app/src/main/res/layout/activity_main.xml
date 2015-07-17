@@ -6,19 +6,22 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_alignParentTop="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/AppToolbarTheme" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:text="Change Theme by Click on Menu"
+        android:textSize="24sp" />
 
 </RelativeLayout>

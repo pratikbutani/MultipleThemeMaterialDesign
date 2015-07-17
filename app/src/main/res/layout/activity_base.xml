@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/view4"
+        android:layout_alignStart="@+id/view4"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="100dp"
+        android:background="@color/blueColorPrimaryDark" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignLeft="@+id/view3"
+        android:layout_alignStart="@+id/view3"
+        android:layout_alignTop="@+id/view1"
+        android:background="@color/redColorPrimaryDark" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_toEndOf="@+id/view4"
+        android:layout_toRightOf="@+id/view4"
+        android:background="@color/redColorAccent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/view3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:background="@color/blueColorAccent" />
+
+</RelativeLayout>
